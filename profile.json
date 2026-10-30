@@ -1,0 +1,239 @@
+{
+  "version": 1,
+  "login": "thepoplive",
+  "seed": "#A5A6C2",
+  "seedFromAvatar": true,
+  "scheme": "tonalSpot",
+  "motion": true,
+  "iconFill": true,
+  "order": [
+    "hero",
+    "socials",
+    "about",
+    "stack",
+    "projects",
+    "wave",
+    "buttons",
+    "stats",
+    "streak"
+  ],
+  "hidden": [
+    "stats",
+    "streak",
+    "buttons"
+  ],
+  "hero": {
+    "greeting": "(thepoplive)",
+    "name": "blxckfvde",
+    "subtitle": "Developer, designer and music producer",
+    "typing": true,
+    "avatarShape": "pill",
+    "chips": [
+      {
+        "icon": "location_on",
+        "label": "Saint Petersburg, Russia"
+      },
+      {
+        "icon": "code",
+        "label": "Python • Kotlin"
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "items": [
+      {
+        "icon": "person",
+        "label": "Developer and Designer"
+      },
+      {
+        "icon": "mobile_wrench",
+        "label": "Mobile & OS Experimenter"
+      },
+      {
+        "icon": "deployed_code",
+        "label": "Experimental Software"
+      }
+    ]
+  },
+  "stack": {
+    "title": "Stack",
+    "groups": [
+      {
+        "title": "Main",
+        "items": [
+          {
+            "icon": "brand:python",
+            "label": "Python"
+          },
+          {
+            "icon": "brand:kotlin",
+            "label": "Kotlin"
+          },
+          {
+            "icon": "brand:dart",
+            "label": "Dart"
+          },
+          {
+            "icon": "brand:php",
+            "label": "PHP"
+          },
+          {
+            "icon": "brand:goland",
+            "label": "Go"
+          }
+        ]
+      },
+      {
+        "title": "Other languages",
+        "items": [
+          {
+            "icon": "brand:cplusplus",
+            "label": "C# / C"
+          },
+          {
+            "icon": "brand:nodedotjs",
+            "label": "Node.js"
+          },
+          {
+            "icon": "brand:sqlite",
+            "label": "SQLite"
+          },
+          {
+            "icon": "brand:javascript",
+            "label": "Java / JavaScript "
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "items": [
+          {
+            "icon": "brand:github",
+            "label": "Git"
+          },
+          {
+            "icon": "brand:docker",
+            "label": "Docker"
+          },
+          {
+            "icon": "brand:mongodb",
+            "label": "Mongodb"
+          },
+          {
+            "icon": "brand:redis",
+            "label": "Redis"
+          },
+          {
+            "icon": "brand:coderabbit",
+            "label": "RabbitMQ"
+          },
+          {
+            "icon": "brand:postgresql",
+            "label": "PostgreSQL"
+          },
+          {
+            "icon": "brand:githubactions",
+            "label": "GitHub Actions"
+          },
+          {
+            "icon": "brand:obsstudio",
+            "label": "OBS"
+          },
+          {
+            "icon": "brand:notepadplusplus",
+            "label": "Notepad++"
+          }
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "items": [
+          {
+            "icon": "brand:dotnet",
+            "label": ".NET"
+          },
+          {
+            "icon": "brand:flutter",
+            "label": "Flutter"
+          },
+          {
+            "icon": "brand:jetpackcompose",
+            "label": "Jetpack Compose"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "manual",
+    "repos": [
+      "PhonePod",
+      "RoundyDock",
+      "BandDownloader",
+      "AltGram-iOS"
+    ],
+    "overrides": {},
+    "empty": "Описания пока нет.",
+    "fork": "Fork"
+  },
+  "stats": {
+    "title": "Активность на GitHub",
+    "stars": "Звёзд получено",
+    "contributions": "Вкладов за год",
+    "repos": "Публичных репо",
+    "followers": "Подписчиков",
+    "calendar": "Последние 21 день",
+    "weekdays": "ВПВСЧПС",
+    "languages": "Языки в моих репозиториях",
+    "showLanguages": true
+  },
+  "streak": {
+    "title": "Серия",
+    "current": "Текущая серия",
+    "longest": "Рекорд за год",
+    "days": "дн."
+  },
+  "socials": {
+    "items": [
+      {
+        "icon": "brand:telegram",
+        "url": "https://t.me/blxckfvde"
+      },
+      {
+        "icon": "brand:youtube",
+        "url": "https://youtube.com/@blxckfvde"
+      },
+      {
+        "icon": "brand:vk",
+        "url": "https://vk.ru/blxckfvde"
+      },
+      {
+        "icon": "brand:spotify",
+        "url": "https://open.spotify.com/artist/32FiSlUwclaOWDKaoE65jZ"
+      },
+      {
+        "icon": "brand:tiktok",
+        "url": "https://www.tiktok.com/@blxckfvde"
+      },
+      {
+        "icon": "music_note",
+        "url": "https://music.yandex.ru/artist/19975395"
+      }
+    ],
+    "variant": "chip",
+    "fill": "brand",
+    "card": true
+  },
+  "buttons": {
+    "items": [
+      {
+        "icon": "book_2",
+        "label": "Все репозитории",
+        "url": "",
+        "style": "tonal"
+      }
+    ],
+    "card": true
+  }
+}
