@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f3fa">
+  <meta name="description" content="blxckfvde — developer, designer and music producer.">
+  <title>blxckfvde — thepoplive</title>
+  <link rel="icon" href="https://github.com/thepoplive.png">
+  <style>
+    :root { color-scheme: light dark; --bg:#f6f3fa; --surface:#fff; --text:#1b1b21; --muted:#62616b; --line:#e7e2eb; --accent:#55566e; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#131318; --surface:#1d1b22; --text:#e6e1e9; --muted:#c6c4ce; --line:#34323a; --accent:#c4c5e2; }
+    }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; min-height:100vh; padding:clamp(18px,4vw,48px) 16px; background:var(--bg); color:var(--text); font:16px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(920px,100%); margin:0 auto; }
+    .hero { display:block; width:100%; height:auto; border-radius:28px; }
+    .socials { display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:10px; margin:24px 0 34px; }
+    .socials img { display:block; height:42px; width:auto; max-width:100%; transition:transform .2s ease; }
+    .socials a:hover img { transform:translateY(-3px); }
+    .section { display:block; width:100%; height:auto; margin:26px 0; }
+    .projects { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin:26px 0; }
+    .projects a { display:block; min-width:0; }
+    .projects img { display:block; width:100%; height:auto; transition:transform .2s ease; }
+    .projects a:hover img { transform:translateY(-3px); }
+    .wave { display:block; width:100%; height:auto; margin-top:36px; }
+    .credit { display:flex; justify-content:center; margin:16px auto 0; }
+    .credit img { width:auto; max-width:100%; height:38px; }
+    a:focus-visible { outline:3px solid var(--accent); outline-offset:4px; border-radius:8px; }
+    @media(max-width:560px) { body{padding:16px 12px} .projects{gap:8px} .socials{gap:6px;margin:18px 0 26px} .socials img{height:36px} }
+    @media(prefers-reduced-motion:reduce) { *,*::before,*::after{scroll-behavior:auto!important;transition:none!important} }
+  </style>
+</head>
+<body>
+  <main>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+      <img class="hero" src="assets/hero-light.svg" alt="(thepoplive) blxckfvde">
+    </picture>
+
+    <nav class="socials" aria-label="Social links">
+      <a href="https://t.me/blxckfvde" aria-label="Telegram"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-1-dark.svg"><img src="assets/social-1-light.svg" alt="Telegram"></picture></a>
+      <a href="https://youtube.com/@blxckfvde" aria-label="YouTube"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-2-dark.svg"><img src="assets/social-2-light.svg" alt="YouTube"></picture></a>
+      <a href="https://vk.ru/blxckfvde" aria-label="VK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-3-dark.svg"><img src="assets/social-3-light.svg" alt="VK"></picture></a>
+      <a href="https://open.spotify.com/artist/32FiSlUwclaOWDKaoE65jZ" aria-label="Spotify"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-4-dark.svg"><img src="assets/social-4-light.svg" alt="Spotify"></picture></a>
+      <a href="https://www.tiktok.com/@blxckfvde" aria-label="TikTok"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-5-dark.svg"><img src="assets/social-5-light.svg" alt="TikTok"></picture></a>
+      <a href="https://music.yandex.ru/artist/19975395" aria-label="Yandex Music"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/social-6-dark.svg"><img src="assets/social-6-light.svg" alt="Yandex Music"></picture></a>
+    </nav>
+
+    <picture><source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg"><img class="section" src="assets/about-light.svg" alt="About me"></picture>
+    <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img class="section" src="assets/stack-light.svg" alt="Technology stack"></picture>
+
+    <section class="projects" aria-label="Projects">
+      <a href="https://github.com/thepoplive/PhonePod"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-phonepod-dark.svg"><img src="assets/project-phonepod-light.svg" alt="PhonePod"></picture></a>
+      <a href="https://github.com/thepoplive/RoundyDock"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-roundydock-dark.svg"><img src="assets/project-roundydock-light.svg" alt="RoundyDock"></picture></a>
+      <a href="https://github.com/thepoplive/BandDownloader"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-banddownloader-dark.svg"><img src="assets/project-banddownloader-light.svg" alt="BandDownloader"></picture></a>
+      <a href="https://github.com/thepoplive/AltGram-iOS"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-altgram-ios-dark.svg"><img src="assets/project-altgram-ios-light.svg" alt="AltGram-iOS"></picture></a>
+    </section>
+
+    <picture><source media="(prefers-color-scheme: dark)" srcset="assets/wave-dark.svg"><img class="wave" src="assets/wave-light.svg" alt=""></picture>
+    <a class="credit" href="https://metawka.github.io/expressive-profile/?from=thepoplive" aria-label="Made with Expressive Profile"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/credit-dark.svg"><img src="assets/credit-light.svg" alt="Made with Expressive Profile"></picture></a>
+  </main>
+</body>
+</html>
