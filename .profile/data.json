@@ -1,5 +1,5 @@
 {
- "key": "ccc24d19",
+ "key": "ef00c3f8",
  "stars": 0,
  "contributions": 102,
  "repos": 20,
@@ -133,9 +133,13 @@
    {
     "c": 25,
     "day": 5,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 6,
     "today": true
    },
-   null,
    null
   ]
  ],
