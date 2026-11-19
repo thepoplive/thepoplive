@@ -1,5 +1,5 @@
 {
- "key": "fc386341",
+ "key": "1e76da20",
  "stars": 0,
  "contributions": 125,
  "repos": 26,
@@ -128,9 +128,13 @@
    {
     "c": 1,
     "day": 18,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 19,
     "today": true
    },
-   null,
    null,
    null
   ]
