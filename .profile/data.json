@@ -1,5 +1,5 @@
 {
- "key": "cfcdd329",
+ "key": "f20c4a08",
  "stars": 0,
  "contributions": 125,
  "repos": 26,
@@ -113,9 +113,13 @@
    {
     "c": 0,
     "day": 22,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 23,
     "today": true
    },
-   null,
    null,
    null,
    null,
